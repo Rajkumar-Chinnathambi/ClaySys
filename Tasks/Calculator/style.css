@@ -1,0 +1,25 @@
+.calci-container {
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+}
+
+input {
+    grid-column: span 3;
+}
+
+input {
+    height: 28px;
+    font-size: 16px;
+    padding: 5px 8px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+button {
+    padding: 8px;
+    font-size: 16px;
+}

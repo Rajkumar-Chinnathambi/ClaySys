@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Temprature Convertion</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        .container{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .temp-box{
+            padding:20px 30px;
+            width:350px;
+            background:yellow;
+            border-radius:5px;
+        }
+        input{
+            width:100%;
+            height:28px;
+            padding:6px 4px;
+        }
+        input[disabled]{
+            background-color:white;
+        }
+        .temp-head{
+            margin-bottom:10px;
+        }
+        .label-name{
+            margin-bottom:8px;
+            letter-spacing:1px;
+        }
+        .to{
+            margin:13px 0px;
+            font-size:24px;
+            font-weight:bold;
+        }
+        button{
+            padding:7px 20px;
+            margin-top:13px;
+            background:green;
+            border:none;
+            outline:none;
+            color:white;
+            border-radius:5px;
+            font-weight:600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="temp-box">
+            <h2 class="temp-head">Temp Convertion</h2>
+            <div class="celcius-box">
+                <p class="label-name">Celcius</p>
+                <input id="celcius" type="number" />
+            </div>
+            <div class="to">to</div>
+            <div class="Fahren-box">
+                <p class="label-name">Fahrenheit</p>
+                <input id="fahren" type="number"  disabled/>
+            </div>
+            <button id="submit">Convert</button>
+        </div>
+    </div>
+
+    <script>
+        const celci = document.getElementById('celcius');
+        const fahren = document.getElementById('fahren');
+        const submit = document.getElementById('submit');
+
+        submit.addEventListener('click', celciToFahren)
+        function celciToFahren() {
+            fahren.value = ((celci.value * 1.8) + 32).toFixed(2);
+        }
+    </script>
+</body>
+</html>

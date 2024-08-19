@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Form Validation</title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+            font-family:'Poppins',sans-serif;
+        }
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('https://wallpaperaccess.com/full/4893732.jpg');
+        }
+        .form-container{
+            width:350px;
+            padding:22px;    
+            background-color:white;
+        }
+        #email-box,#password-box{
+            height:35px;
+            padding:10px;
+            background-color:#ccc;
+            margin-top:30px;
+            position:relative;
+        }
+        input{
+            position:absolute;
+            top:0;
+            left:0;
+            height:100%;
+            width:100%;
+            border:none;
+            outline:none;
+            background-color:transparent;
+            padding-left:8px;
+            font-size:14px;
+        }
+        label{
+            position:absolute;
+            left:8px;
+            top:20%;
+            transition:all 0.5s;
+        }
+        
+        .labelActive{
+            top:-70%;
+            left:0;
+            font-size:14px;
+        }
+        button{
+            width:100%;
+            padding:8px 16px;
+            background-color:green;
+            color:white;
+            border:none;
+            outline:none;
+            margin-top:26px;
+        }
+        button:hover{
+            background-color:#2ab03d;
+        }
+        #email-msg,#password-msg{
+            position:absolute;
+            bottom:-67%;
+            left:2px;
+            font-size:12px;
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Login</h1>
+            <div id="email-box">
+                <label>Email</label>
+                <input  type="email" id="email" />
+                <span id="email-msg"></span>
+            </div>
+            <div id="password-box">
+                <label>Password</label>
+                <input type="password" id="password" />
+                <span id="password-msg"></span>
+            </div>
+            <button id="login">Login</button>
+        </div>
+    </div>
+    <script>
+        const inputs = document.getElementsByTagName('input');
+        const login = document.getElementById('login');
+        const emailMsg = document.getElementById('email-msg');
+
+        // Style code for input
+
+        for (let input of inputs) {
+            input.addEventListener('focusin', () => {
+                let parent = input.parentElement;
+                document.querySelector(`#${parent.id} label`).classList.add('labelActive');
+            })
+            input.addEventListener('focusout', () => {
+                if (input.value == '') {
+                    let parent = input.parentElement;
+                    document.querySelector(`#${parent.id} label`).classList.remove('labelActive');
+                }
+            })
+        }
+
+        login.addEventListener('click', formValidation);
+
+        // form validation 
+
+        function formValidation() {           
+            emailValid();
+            passwordValid();
+            if (emailMsg.innerText != '' && document.getElementById('password').value != '') {
+                document.getElementById('password-box').style.marginTop = '50px';
+            }
+            if (emailValid() && passwordValid()) {
+                alert('Success');
+            }    
+
+        }
+
+        // Email address validation
+
+        function emailValid() {
+            const email = document.getElementById('email').value;
+            
+            let msg = '';
+            if (email.trim() != '') {
+                if (email.match(/[A-Za-z0-9]{3,}@gmail[.]com/) != null) {
+                    emailMsg.innerText = '';
+                    return true;
+                }
+                else {
+                    msg = 'Email should be include letter, char ,@gmail.com';
+                }
+            }
+            else {
+                msg= "Email shouldn't empty";
+            }
+            emailMsg.innerText = msg;
+            return false;
+        }
+
+        // Password Validation
+
+        function passwordValid() {
+            const password = document.getElementById('password').value;
+            const passwordMsg = document.getElementById('password-msg');
+            let msg = '';
+            if (password.trim() != '') {
+                if (password.length >= 8) {
+                    passwordMsg.innerText = '';
+                    return true;
+                }
+                else {
+                    msg = 'Password should be more than 8 char';
+                }
+            }
+            else {
+
+            }
+            passwordMsg.innerText = msg;
+            return false;
+        }
+
+    </script>
+</body>
+</html>
