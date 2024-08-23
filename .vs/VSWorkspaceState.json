@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\CampRegistration",
-    "\\JQuery"
+    "\\JQuery",
+    "\\JQuery\\RegisterPage"
   ],
-  "SelectedNode": "\\CampRegistration\\style.css",
+  "SelectedNode": "\\JQuery\\LoginJQ.html",
   "PreviewInSolutionExplorer": false
 }
