@@ -1,5 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 *
 {
@@ -11,23 +11,22 @@
 input{
     border-radius:3px;
     outline:none;
+    border:1px solid #808080;
 }
 .container {
-    height: 100vh;
+    min-height: 100vh;
+    padding:30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background: url(https://media.istockphoto.com/id/468615322/photo/blue-abstract-background.jpg?s=1024x1024&w=is&k=20&c=43kKzTddlI-rsstDX8kYy261ta7Xwgc1oK2S8tVGeZc=);
     background-size:cover;
 }
-.form{
-    width:700px;
-    padding:20px 30px;
-    box-shadow:0 0 18px  rgba(0,0,0,0.2),
-        0 2px 8px rgba(0,0,0,0.1),
-        0 4px 8px rgba(0,0,0,0.1),
-        0 6px 8px rgba(0,0,0,0.1);
-    background-color:white;
+.form {
+    width: 700px;
+    padding: 20px 30px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.2), 0 2px 8px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.1), 0 6px 8px rgba(0,0,0,0.1);
+    background-color: #fefdfa;
 }
 .header{
     text-align:center;
@@ -36,6 +35,15 @@ input{
 .heading {
     margin: 5px 0px;
     color: #7e49ca;
+}
+.heading:nth-child(1){
+    text-transform:uppercase;
+}
+.heading:nth-child(2){
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+   color:#ffa500;
 }
 .floating-box{
     position:relative;
@@ -51,8 +59,10 @@ input{
     font-size: 14px;
     padding: 8px;
     outline:none;
-    border:2px solid #000000;
-    z-index:1000;
+    z-index:9;
+}
+#date{
+    z-index:11 !important;
 }
 .floating-label {
     position: absolute;
@@ -81,10 +91,10 @@ input{
 .grid{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:24px;
-    margin-bottom:25px;
+    column-gap:15px;
 }
-.date-box,.gender{
+.date-box,.gender,.emailBox,.mobileBox,
+.usernameBox,.pwdBox{
     display:flex;
     flex-direction:column;
     gap:6px;
@@ -102,7 +112,8 @@ input{
 }
 .addressBox input, 
 .date-box input,
-#state,#city{
+#state,#city,.emailBox input,.mobileBox input,
+.usernameBox input,.pwdBox input{
     height: 35px;
     padding: 8px;
 }
@@ -110,15 +121,83 @@ input{
     width:100%;
     margin-top:8px;
 }
-
+small{
+    padding:2px;
+}
+.rememberBox, .account {
+    padding: 10px 0;
+}
+.submit-box, .account {
+    text-align: center;
+}
+.account{
+    font-size:14px;
+}
 .submit-box input {
-    width: 20%;
+    width: 50%;
     border: none;
     outline: none;
     background-color: #6f2ecc;
     padding: 8px 0;
-    color:white;
+    color: white;
+    margin-top: 10px;
 }
-    .submit-box input:hover {
-        background-color: #7649b8;
-    }
+.submit-box input:hover {
+    background-color: #7649b8;
+}
+.ui-dialog {
+    left: 50% !important;
+    top: 50px !important;
+    transform: translateX(-50%) !important;
+    z-index: 99 !important;
+}
+label{
+    font-size:14px;
+}
+.alertBox-container{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    display:none;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    z-index:999;
+    
+}
+.alertBox{
+    width:400px;
+    padding:40px;
+    background:#f6ece1;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    position:relative;
+}
+#msgCancel-icon{
+    position:absolute;
+    right:15px;
+    top:7px;
+    font-size:30px;
+    font-weight:600;
+    cursor:pointer;
+}
+.msg-logo{
+    width:150px;
+    height:150px;
+    text-align:center;
+}
+.msg-logo img{
+    width:100%;
+    height:100%;
+}
+#msg-content{
+    font-size:24px;
+    font-weight:bold;
+    margin-top:10px;
+    text-align:center;
+}

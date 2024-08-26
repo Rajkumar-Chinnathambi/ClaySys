@@ -3,8 +3,9 @@
     "",
     "\\CampRegistration",
     "\\JQuery",
-    "\\JQuery\\RegisterPage"
+    "\\Tasks",
+    "\\Tasks\\Calculator"
   ],
-  "SelectedNode": "\\JQuery\\LoginJQ.html",
+  "SelectedNode": "\\Tasks\\FormValidation.html",
   "PreviewInSolutionExplorer": false
 }

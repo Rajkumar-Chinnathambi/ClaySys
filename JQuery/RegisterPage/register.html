@@ -15,8 +15,8 @@
     <div class="container">
         <form class="form">
             <div class="header">
-                <h3 class="heading">Create Your Account</h3>
-                <h3 class="heading">Join us today & Start your journey!</h3>
+                <h2 class="heading">Create Your Account</h2>
+                <h3 class="heading">Join us today <span style="color:deeppink">&</span> Start your journey<span style="color:deeppink">!</span></h3>
             </div>
             <div class="personal-info">
                 <div class="grid">
@@ -36,27 +36,48 @@
                     </div>
                 </div>
                 <div class="grid">
+                    <div class="usernameBox">
+                        <label>User Name</label>
+                        <input type="text" value="" id="userName" />
+                        <small class="userNameError"></small>
+                    </div>
+                    <div class="pwdBox">
+                        <label>Password</label>
+                        <input type="password" value="" id="pwd" />
+                        <small class="pwdError"></small>
+                    </div>
                     <div class="date-box">
-                        <label >Date of Birth</label>
-                        <input type="text" value="" max="2006-08-22" id="date" required />
+                        <label>Date of Birth</label>
+                        <input type="text" value="" max="05-05-2006" id="date" required />
                         <small class="dateError"></small>
                     </div>
                     <div class="gender ">
                         <label class="">Gender</label>
                         <div class="gender-inputs">
                             <div class="male-box">
-                                <input type="radio" name="gender" />
+                                <input type="radio" name="gender" value="male" />
                                 <label>Male</label>
                             </div>
                             <div class="female-box">
-                                <input type="radio" name="gender" />
+                                <input type="radio" name="gender" value="female" />
                                 <label>Female</label>
                             </div>
                             <div class="other-box">
-                                <input type="radio" name="gender" />
+                                <input type="radio" value="other" name="gender" />
                                 <label>Other</label>
                             </div>
                         </div>
+                        <small class="genderError"></small>
+                    </div>
+                    <div class="emailBox">
+                        <label>Email</label>
+                        <input type="email" value="" id="email" />
+                        <small class="emailError"></small>
+                    </div>
+                    <div class="mobileBox">
+                        <label>Mobile</label>
+                        <input type="number" value="" id="mobile" />
+                        <small class="mobileError"></small>
                     </div>
                     <div class="address-box grid">
                         <div class="addressBox">
@@ -83,11 +104,31 @@
 
                 </div>
             </div>
+            <div class="rememberBox">
+                <input type="checkbox" id="remember" />
+                <label for="remember">Remember Me</label>
+            </div>
             <div class="submit-box">
-                <input type="submit" id="submitBtn" class="submitBtn" value="Register"/>
+                <input type="submit" id="submitBtn" class="submitBtn" value="Register" />
+            </div>
+            <div class="account">
+                If already have an account? <a href="#">Login</a>
             </div>
         </form>
+        <div id="dialog" style="display:none;" title="Form">
+            <p>Form Submitted successfully</p>
+        </div>
+    </div>
+    <div class="alertBox-container" id="alertBox-container">
+        <div class="alertBox">
+            <span id="msgCancel-icon">x</span>
+            <h1>Form Submition</h1>
+            <div class="msg-logo">
+                <img src="https://www.iconshock.com/image/Shine7/General/check_mark" alt="msg logo" id="msgLogo" />
+            </div>
+            <p id="msg-content">Success</p>
+        </div>
     </div>
     <script src="./register.js"></script>
-    </body>
+</body>
 </html>
