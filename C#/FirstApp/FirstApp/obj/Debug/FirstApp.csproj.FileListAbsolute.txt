@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\ClaySys\C#\FirstApp\FirstApp\bin\Debug\FirstApp.exe.config
+C:\Users\admin\Desktop\ClaySys\C#\FirstApp\FirstApp\bin\Debug\FirstApp.exe
+C:\Users\admin\Desktop\ClaySys\C#\FirstApp\FirstApp\bin\Debug\FirstApp.pdb
+C:\Users\admin\Desktop\ClaySys\C#\FirstApp\FirstApp\obj\Debug\FirstApp.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\ClaySys\C#\FirstApp\FirstApp\obj\Debug\FirstApp.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\ClaySys\C#\FirstApp\FirstApp\obj\Debug\FirstApp.exe
+C:\Users\admin\Desktop\ClaySys\C#\FirstApp\FirstApp\obj\Debug\FirstApp.pdb
