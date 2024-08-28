@@ -46,9 +46,49 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Calculator.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SqlCRUD.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClaySysData.xsc">
+      <DependentUpon>ClaySysData.xsd</DependentUpon>
+    </None>
+    <None Include="ClaySysData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClaySysData.xss">
+      <DependentUpon>ClaySysData.xsd</DependentUpon>
+    </None>
+    <None Include="ClaySysDataSet.xsc">
+      <DependentUpon>ClaySysDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClaySysDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClaySysDataSet.xss">
+      <DependentUpon>ClaySysDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClaySysDataSet1.xsc">
+      <DependentUpon>ClaySysDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ClaySysDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClaySysDataSet1.xss">
+      <DependentUpon>ClaySysDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

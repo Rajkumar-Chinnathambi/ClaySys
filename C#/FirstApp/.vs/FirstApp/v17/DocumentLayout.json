@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\ClaySys\\C#\\FirstApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC387882-5920-4599-B72A-A37C5AFD02A6}|FirstApp\\FirstApp.csproj|c:\\users\\admin\\desktop\\claysys\\c#\\firstapp\\firstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC387882-5920-4599-B72A-A37C5AFD02A6}|FirstApp\\FirstApp.csproj|C:\\Users\\admin\\Desktop\\ClaySys\\C#\\FirstApp\\firstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC387882-5920-4599-B72A-A37C5AFD02A6}|FirstApp\\FirstApp.csproj|solutionrelative:firstapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC387882-5920-4599-B72A-A37C5AFD02A6}|FirstApp\\FirstApp.csproj|c:\\users\\admin\\desktop\\claysys\\c#\\firstapp\\firstapp\\sqlcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC387882-5920-4599-B72A-A37C5AFD02A6}|FirstApp\\FirstApp.csproj|solutionrelative:firstapp\\sqlcrud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC387882-5920-4599-B72A-A37C5AFD02A6}|FirstApp\\FirstApp.csproj|c:\\users\\admin\\desktop\\claysys\\c#\\firstapp\\firstapp\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,17 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 180,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SqlCRUD.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\C#\\FirstApp\\FirstApp\\SqlCRUD.cs",
+              "RelativeDocumentMoniker": "FirstApp\\SqlCRUD.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\C#\\FirstApp\\FirstApp\\SqlCRUD.cs",
+              "RelativeToolTip": "FirstApp\\SqlCRUD.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAADwv0cAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:32:03.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\C#\\FirstApp\\FirstApp\\Calculator.cs",
               "RelativeDocumentMoniker": "FirstApp\\Calculator.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\C#\\FirstApp\\FirstApp\\Calculator.cs",
               "RelativeToolTip": "FirstApp\\Calculator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAPAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T10:25:45.255Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "FirstApp\\Program.cs",
               "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\C#\\FirstApp\\FirstApp\\Program.cs",
               "RelativeToolTip": "FirstApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAfAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAAwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T09:17:12.635Z",
               "EditorCaption": ""

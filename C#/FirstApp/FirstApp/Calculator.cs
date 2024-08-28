@@ -4,12 +4,12 @@ namespace FirstApp
 {
     public class Calculator
     {
-        public  void Calculation()
+        public void Calculation()
         {
-            int firstNumber = GetFisrtNum();
-            int secondNumber = GetFisrtNum();
+            int firstNumber = GetInputNum("First");
+            int secondNumber = GetInputNum("Second");
             Calculator cal = new Calculator();
-            Console.WriteLine("Choose Operation :\n1.Add\n2.Sub\n3.Multification\n4.Divition");
+            Console.WriteLine("\n1.Add\n2.Sub\n3.Multification\n4.Divition");
             Console.WriteLine("Enter Operation Number :");
             int operation = int.Parse(Console.ReadLine());
             switch (operation)
@@ -31,34 +31,18 @@ namespace FirstApp
                     break;
             }
         }
-        static int GetFisrtNum()
+        static int GetInputNum(string displayName)
         {
-            Console.WriteLine("Enter First Number :");
-            int firstNumber = int.Parse(Console.ReadLine());
-            return firstNumber;
+            Console.WriteLine($"Enter {displayName} Number :");
+            int number = int.Parse(Console.ReadLine());
+            return number;
         }
-        static int GetSecondNum()
-        {
-            Console.WriteLine("Enter Second Number :");
-            int secondNumber = int.Parse(Console.ReadLine());
-            return secondNumber;
-        }
-        public int Add(int x, int y)
-        {
-            return x + y;
-        }
-        public int Sub(int x, int y)
-        {
-            return x - y;
-        }
-        public int Mul(int x, int y)
-        {
-            return x * y;
-        }
-        public int Div(int x, int y)
-        {
-            return x / y;
-        }
+        
+        public int Add(int x, int y) => x + y;       
+        public int Sub(int x, int y) => x - y;       
+        public int Mul(int x, int y) => x * y;       
+        public int Div(int x, int y) => x / y;
+        
     }
    
 }
