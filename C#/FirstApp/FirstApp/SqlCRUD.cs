@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace FirstApp
 {
     internal class SqlCRUD
     {
+        SqlConnection conn;
         public SqlCRUD() {
-            
+            conn = new SqlConnection("Data Source=localhost\\sqlexpress;Initial Catalog=ClaySys;Integrated Security=True");
         }
         
         public static void DisplayAllRecords()
@@ -67,14 +69,14 @@ namespace FirstApp
         {
             try
             {
-                var con = CreateSqlConnection();
+                
                 int empid = GetIntInput("Employee ID");
                 int empSal = GetIntInput("Salary");
                 // Update Details get from user
-                SqlCommand cmd = new SqlCommand($"update EMPLOYEE set E_SAL={empSal} where EMPID={empid}", con);
-                con.Open();
+                SqlCommand cmd = new SqlCommand($"update EMPLOYEE set E_SAL={empSal} where EMPID={empid}", conn);
+                conn.Open();
                 int result = cmd.ExecuteNonQuery();
-                con.Close();
+                conn.Close();
                 if (result == 0)
                 {
                     Console.WriteLine("Result : Fail");
@@ -108,10 +110,52 @@ namespace FirstApp
             string StringValue = Console.ReadLine();
             return StringValue;
         }
-       public static SqlConnection CreateSqlConnection()
+        public void SqlParamInsert()
         {
-            return new SqlConnection("Data Source=localhost\\sqlexpress;Initial Catalog=ClaySys;Integrated Security=True");
+            
+            SqlCommand cmd = new SqlCommand($"insert into EMPLOYEE(EMPID,E_NAME,E_SAL,E_ADDRESS) values(@id,@name,@sal,@address)",conn);
+            conn.Open();
+            cmd.Parameters.AddWithValue("@id", 111);
+            cmd.Parameters.AddWithValue("@name", "Rajini");
+            cmd.Parameters.AddWithValue("@sal", 20000);
+            cmd.Parameters.AddWithValue("@address", "Dindugal");
+            int result = cmd.ExecuteNonQuery();
+            conn.Close();
+            if (result == 0)
+            {
+                Console.WriteLine("Result : Fail");
+            }
+            else
+            {
+                Console.WriteLine("Result : Success");
+            }
+
         }
+        public void SqlAdaptInsert()
+        {
+            SqlDataAdapter da = new SqlDataAdapter("select * from EMPLOYEE", conn);
+            SqlCommandBuilder builder = new SqlCommandBuilder(da);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            DataTable dt = ds.Tables[0];
+            DataRow nr= dt.NewRow();
+            nr["empid"] = 120;
+            nr["E_NAME"] = "Sanjay";
+            nr["E_SAL"] = 24000;
+            nr["E_ADDRESS"] = "Chennai";
+            dt.Rows.Add(nr);
+            da.Update(ds);
+            int colCount = dt.Columns.Count;
+            foreach (DataRow dr in dt.Rows)
+            {
+                for (int i = 0; i < colCount; i++)
+                {
+                    Console.Write(dr[i]+"\t");
+                }
+                Console.WriteLine();
+            }
+        }
+      
 
     }
 }

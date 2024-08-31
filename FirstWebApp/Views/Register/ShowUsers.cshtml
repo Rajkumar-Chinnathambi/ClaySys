@@ -1,0 +1,34 @@
+﻿
+@model IEnumerable<FirstWebApp.Models.RegisterUser>
+@{
+
+    ViewBag.Title = "ShowUsers";
+    Layout = "~/Views/Shared/Register.cshtml";
+}
+
+<div class="d-flex justify-content-center mt-5">
+    <table class="table card p-3 w-75" style="width:300px;">
+            <tr class="bg-gradient">
+                <th class="bg-gradient">Email</th>
+                <th class="bg-gradient">Password</th>
+                <th class="bg-gradient">Action</th>
+            </tr>
+            @{
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="font-monospace">@item.Email</td>                        
+                        <td class="font-monospace">@item.Password</td>
+                        <td class="font-monospace">
+                            <a href="UpdateUser?id=@item.Id" class="btn btn-info">Edit</a>
+                            <a href="UpdateUser?id=@item.Id" class="btn btn-danger">Delete</a>
+                        </td>
+
+                    </tr>
+                }
+
+            }
+
+    </table>
+</div>
+

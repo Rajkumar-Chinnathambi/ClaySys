@@ -1,0 +1,56 @@
+﻿@model IEnumerable<FirstWebApp.Models.RegisterUser>
+@{
+    ViewBag.Title = "UpdateUser";
+    Layout = "~/Views/Shared/Register.cshtml";
+}
+
+<div class="col-md-5 col-lg-4 col-xl-5 offset-xl-1 shadow p-4">
+    <form action="Register/UpdateUserSave" method="post">
+        <h3 class="text-primary text-center ">Register Here</h3>
+      
+        @foreach (var item in Model) {
+        <div class="form-outline mb-4">
+            <label class="form-label" for="uname">User Name</label>
+            <input type="text" name="UserName" id="uname" class="form-control" value="@item.UserName" />
+            
+               
+            
+        </div>
+
+        <!-- Email input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" name="Email" id="email" class="form-control" value="@item.Email" />
+            
+        </div>
+
+        <!-- Password input -->
+        <div class="form-outline mb-4">
+            <label class="form-label" for="pwd">Password</label>
+            <input type="password" name="Password" id="pwd" class="form-control" value="@item.Password"/>
+           
+        </div>
+        }
+        <div class="form-outline mb-4">
+            <label class="form-label" for="pwd">Re-Password</label>
+            <input type="password" name="Re-Password" id="re-pwd" class="form-control" />
+           
+        </div>
+
+        <div class="d-flex justify-content-around align-items-center mb-4">
+            <!-- Checkbox -->
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                <label class="form-check-label" for="form1Example3"> Remember me </label>
+            </div>
+            <a href="#!">Forgot password?</a>
+        </div>
+
+        <!-- Submit button -->
+        <input type="submit" class="btn btn-primary w-100 btn-block">Register</input>
+
+
+
+    </form>
+</div>
+

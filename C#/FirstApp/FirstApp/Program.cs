@@ -7,8 +7,9 @@ namespace FirstApp
     {
         static void Main()
         {
-            /*SqlCRUD sql = new SqlCRUD();
-            sql.UpdateRecord();*/
+            SqlCRUD sql = new SqlCRUD();
+            //sql.SqlParamInsert();
+            sql.SqlAdaptInsert();
 
             DisplaySqlData();
             /* WelcomeWishes();
