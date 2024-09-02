@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\views\\user\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\views\\user\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\views\\user\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\views\\user\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\onlinelearningportal\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\views\\shared\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\onlinelearningportal\\content\\auth\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\content\\auth\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\views\\auth\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\content\\home\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\content\\home\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|c:\\users\\admin\\desktop\\claysys\\onlinelearningportal\\onlinelearningportal\\scripts\\auth\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\scripts\\auth\\signup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\onlinelearningportal\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\onlinelearningportal\\repository\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\repository\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\onlinelearningportal\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5561D7EE-9960-42C1-AE10-DF836C499EBC}|OnlineLearningPortal\\OnlineLearningPortal.csproj|solutionrelative:onlinelearningportal\\models\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\User\\Contact.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Views\\User\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\User\\Contact.cshtml",
+              "RelativeToolTip": "OnlineLearningPortal\\Views\\User\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T09:22:08.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\User\\About.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Views\\User\\About.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\User\\About.cshtml",
+              "RelativeToolTip": "OnlineLearningPortal\\Views\\User\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T09:21:34.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "OnlineLearningPortal\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:13:20.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "OnlineLearningPortal\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T08:10:20.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Controllers\\UserController.cs",
+              "RelativeToolTip": "OnlineLearningPortal\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T08:08:54.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Views\\Shared\\_AuthLayout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\Shared\\_AuthLayout.cshtml",
+              "RelativeToolTip": "OnlineLearningPortal\\Views\\Shared\\_AuthLayout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T05:18:40.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\Auth\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Views\\Auth\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Views\\Auth\\SignUp.cshtml",
+              "RelativeToolTip": "OnlineLearningPortal\\Views\\Auth\\SignUp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-02T05:20:49.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignUp.css",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Content\\Auth\\SignUp.css",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Content\\Auth\\SignUp.css",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Content\\Auth\\SignUp.css",
+              "RelativeToolTip": "OnlineLearningPortal\\Content\\Auth\\SignUp.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-02T05:31:13.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OnlineLearningPortal\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T06:58:34.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Content\\Home\\index.css",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Content\\Home\\index.css",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Content\\Home\\index.css",
+              "RelativeToolTip": "OnlineLearningPortal\\Content\\Home\\index.css",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-02T07:22:22.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignUp.js",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Scripts\\Auth\\SignUp.js",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Scripts\\Auth\\SignUp.js",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Scripts\\Auth\\SignUp.js",
+              "RelativeToolTip": "OnlineLearningPortal\\Scripts\\Auth\\SignUp.js",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAwwHwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-02T06:38:23.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OnlineLearningPortal\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T05:15:32.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SignIn.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Repository\\SignIn.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Repository\\SignIn.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Repository\\SignIn.cs",
+              "RelativeToolTip": "OnlineLearningPortal\\Repository\\SignIn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T05:12:12.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Models\\UserDetails.cs",
+              "RelativeDocumentMoniker": "OnlineLearningPortal\\Models\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\ClaySys\\OnlineLearningPortal\\OnlineLearningPortal\\Models\\UserDetails.cs",
+              "RelativeToolTip": "OnlineLearningPortal\\Models\\UserDetails.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T04:49:16.222Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

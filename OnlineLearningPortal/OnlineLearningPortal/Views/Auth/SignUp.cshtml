@@ -1,0 +1,128 @@
+﻿@model OnlineLearningPortal.Models.UserDetails
+
+@{
+    ViewBag.Title = "SignUp";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+@Styles.Render("~/Content/Auth/SignUp.css")
+<div class="formContainer">
+    <form class="form">
+        <div class="header">
+            <h2 class="heading">Create Your Account</h2>
+            <h3 class="heading">Join us today <span style="color:deeppink">&</span> Start your journey<span style="color:deeppink">!</span></h3>
+        </div>
+        <div class="personal-info">
+            <div class="grid">
+                <div class="fname-container">
+                    <div class="fname-box floating-box">
+                        <input type="text" class="floating-input" id="fname" required />
+                        <label class="floating-label">First Name</label>
+                        <small class="fnameError"></small>
+                    </div>
+                    
+                </div>
+                <div class="lname-container">
+                    <div class="lname-box floating-box">
+                        <input type="text" id="lname" class="floating-input" onblur="lnameValid()" required />
+                        <label class="floating-label">Last Name</label>
+                        <small class="lnameError"></small>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="grid">
+                <div class="usernameBox">
+                    <label>User Name</label>
+                    <input type="text" value="" id="userName" onblur="userNameValid()" />
+                    <small class="userNameError"></small>
+                </div>
+                <div class="pwdBox">
+                    <label>Password</label>
+                    <input type="password" value="" id="pwd" onblur=" pwdValid()"/>
+                    <small class="pwdError"></small>
+                </div>
+                <div class="date-box">
+                    <label>Date of Birth</label>
+                    <input type="text" value="" max="05-05-2006" id="date" required />
+                    <small class="dateError"></small>
+                </div>
+                <div class="gender ">
+                    <label class="">Gender</label>
+                    <div class="gender-inputs">
+                        <div class="male-box">
+                            <input type="radio" name="gender" value="male" />
+                            <label>Male</label>
+                        </div>
+                        <div class="female-box">
+                            <input type="radio" name="gender" value="female" />
+                            <label>Female</label>
+                        </div>
+                        <div class="other-box">
+                            <input type="radio" value="other" name="gender" />
+                            <label>Other</label>
+                        </div>
+                    </div>
+                    <small class="genderError"></small>
+                </div>
+                <div class="emailBox">
+                    <label>Email</label>
+                    <input type="email" value="" id="email" onblur="emailValid()" />
+                    <small class="emailError"></small>
+                </div>
+                <div class="mobileBox">
+                    <label>Mobile</label>
+                    <input type="number" value="" id="mobile" onblur="mobileValid()" />
+                    <small class="mobileError"></small>
+                </div>
+                <div class="address-box grid">
+                    <div class="addressBox">
+                        <label class="">Address</label>
+                        <input type="text" class="" id="addressInput" onblur="addressValid()" />
+                        <small id="addressError"></small>
+                    </div>
+                    <div class="state-box">
+                        <label>State</label>
+                        <select id="state">
+                            <option>Choose State</option>
+                        </select>
+                        <small id="stateError"></small>
+                    </div>
+                    <div class="city-box">
+                        <label>City</label>
+                        <select id="city">
+                            <option>Choose City</option>
+                        </select>
+                        <small id="cityError"></small>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="rememberBox">
+            <input type="checkbox" id="remember" />
+            <label for="remember">Remember Me</label>
+        </div>
+        <div class="submit-box">
+            <input type="submit" id="submitBtn" class="submitBtn" value="Register" />
+        </div>
+        <div class="account">
+            If already have an account? <a href="#">Login</a>
+        </div>
+    </form>
+    <div id="dialog" style="display:none;" title="Form">
+        <p>Form Submitted successfully</p>
+    </div>
+</div>
+<div class="alertBox-container" id="alertBox-container">
+    <div class="alertBox">
+        <span id="msgCancel-icon">x</span>
+        <h1>Form Submition</h1>
+        <div class="msg-logo">
+            <img src="https://www.iconshock.com/image/Shine7/General/check_mark" alt="msg logo" id="msgLogo" />
+        </div>
+        <p id="msg-content">Success</p>
+    </div>
+</div>
+
+
